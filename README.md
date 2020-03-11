@@ -10,3 +10,19 @@
 ## About MultiAuth
 
 Laravel boiler for admin/user login and redirect (multi-auth)
+
+## Install
+
+Run 'composer install; php artisan key:generate'
+
+Dont forget to setup your database in .env (/duplicate, rename .env.example) and
+
+Run 'php artisan migrate'
+
+then
+
+Register 2 users, in database set admin int for admin user to 1
+
+then
+
+thank me later
